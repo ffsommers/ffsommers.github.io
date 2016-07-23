@@ -1,15 +1,50 @@
-.banner {
-	background-color: #bbbbbb;
+body{
+	background-color:#808080;
+	width: 960 px;
+margin-left: auto;
+margin-right: auto;
+font-family: Helvetica, Arial, sans-serif;
+font-size:15px;
+}
+.about{
+	padding-top:100px;
+	clear:both;
+	margin-right: 45px;
+	margin-left: 45px;
 	color:white;
 }
+.banner {
+	background-color: #696969:;
+	color:white;
+}
+.about-me{
+	color:white;
+	margin-right: 65px;
+	margin-left: 65px;
+}
+.resume {
+	padding-top:80px;
+	margin-right: 45px;
+	margin-left: 45px;
+	color:white;
+
+}
 nav{ 
-  
+  width:100%;
+  float:left;
+  margin: 0 0 1em 0;
+  padding:0;
+
   
 }
 
 nav ul {
 	margin:0px; 
 	padding:0px;
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding:0;
 }
 nav ul li a{
 	text-decoration:none; 
@@ -24,7 +59,7 @@ nav ul li{
 	font-size: 20px;
 	line-height: 40px;
 	text-align: center;
-	opacity:.5;
+	opacity:.4;
 	list-style:none;
 
 }
