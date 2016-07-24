@@ -1,49 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset ="UTF-8">
-	<title>Frank Sommers</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+  <meta charset ="UTF-8">
+  <title>Frank Sommers</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  
-
-  <nav>
-  	<ul>
+ <nav class="nav-main">
+    <div class="logo">Frank Sommers</div>
+    <ul>
       <li>
-        <a href="about.html">About</a>
-        <ul>
-          <li>
-            <a href="resume.html">Resume</a>
-          </li>
-          <li>
-            <a href="projects.html">Projects</a>
-          </li>
-        </ul>
-      </li> 
-      <li>
-        <a href="contact.html">Contact</a>
+        <a href="index.html" class="nav-item">Home</a>
       </li>
-      
+      <li>
+        <a href="#" class="nav-item">Portfolio</a>
+        <div class="nav-content">
+          <div class="nav-sub">
+          <ul>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+          </div>
+        </div>    
+      </li>
+      <li>
+        <a href="contact.html" class="nav-item">Contact</a>
+      </li>
     </ul>
+    </div>    
     
   </nav>
-  <div class="social-media-icons">
-       <li>
-          <a href="https://www.linkedin.com/pulse/20140620130554-6154897-what-is-my-linkedin-profile-address-to-put-on-cards-forms-etc"><img src="wg_dark_sm_5.png" style= "width: 35px;" /></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/AeriCam"><img src="wg_dark_sm_1.png" style= "width: 35px;"/></a>
-        </li>
-        <li>
-          <a href="https://www.twitter.com"><img src="wg_dark_sm_10.png" style= "width: 35px;" /></a> 
-        </li> 
-    </div>
+  
 
   <main>
   <section>
-    <h1>Send me an email through this form!</h1>
-    <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+    <h1 class="mailMessage">Send me an email through this form!</h1>
+    <form class= "mail" action="MAILTO:ssommers21@gmail.com" method="post" enctype="text/plain">
 Name:<br>
 <input type="text" name="name" value="your name"><br>
 E-mail:<br>
