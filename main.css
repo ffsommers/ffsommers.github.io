@@ -3,6 +3,10 @@ body{
 	margin:0;
 	font: 1em "Open Sans", sans-serif;
 }
+img {
+	max-width: 100%
+	height: auto;
+}
 .content{
 	padding:30px;
 }
@@ -65,10 +69,15 @@ body{
 	padding:0;
 	margin:0;
 	list-style-type:none;
+	text-decoration: none;
 }
 .nav-sub ul li a {
 	display: inline-block;
 	padding:5px 0;
+	text-decoration: none;
+}
+.nav-sub ul li :hover {
+  background-color: #D3D3D3
 }
 .nav-item:focus{
 	background-color: #D3D3D3;
@@ -122,3 +131,22 @@ body{
 .mailMessage {
 	color:white;
 }
+.thumbnails {
+	margin-right: -5px;
+}
+.thumbnails a {
+	
+	width: 25%;
+	float:left;
+	padding-right: 15px;
+	padding-left: 20px;
+	box-sizing:border-box;
+}
+
+.thumbnails img:hover {
+ -webkit-transform: rotate(4deg);
+	box-shadow: 0 0 10px rgba(0,0,0 .2);
+}
+
+
+

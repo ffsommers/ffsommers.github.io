@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <meta charset ="UTF-8">
   <title>Frank Sommers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+  <script> 
+     var bleep = new Audio();
+     bleep.src = "bang.mp3";
+  </script>
+  <script>
+   var sweep = new Audio();
+   sweep.src = "slide.mp3"
+  </script>
+
   <script src="js/jquery-3.1.0.js"></script>
   <script src="js/lightbox.min.js"></script>
   
@@ -15,35 +25,33 @@
     <div class="logo">Frank Sommers</div>
     <ul>
       <li>
-        <a href="index.html" class="nav-item">Home</a>
+        <a href="index.html" class="nav-item" onmouseover="bleep.play()" onmousedown="sweep.play()">Home</a>
       </li>
       <li>
-        <a href="#" class="nav-item">Portfolio</a>
+        <a href="#" class="nav-item" onmouseover="bleep.play()" onmousedown="sweep.play()">Portfolio</a>
         <div class="nav-content">
           <div class="nav-sub">
           <ul>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html" onmouseover="bleep.play()" onmousedown="sweep.play()">Resume</a></li>
+            <li><a href="projects.html" onmouseover="bleep.play()" onmousedown="sweep.play()">Projects</a></li>
           </ul>
           </div>
         </div>    
       </li>
       <li>
-        <a href="contact.html" class="nav-item">Contact</a>
+        <a href="contact.html" class="nav-item" onmouseover="bleep.play()" onmousedown="sweep.play()">Contact</a>
       </li>
     </ul>
     </div>    
     
   </nav>
-
   <div class="container">
 
-    <div class="row">
-
-      <div class="col col-md-8 push-down-sm">
+    
 
         <h2>Checkout some of my projects</h2>
       
+       <div class = "thumbnails group"> 
 
         <a href="images/anura1.jpg" data-lightbox="image-1"><img src="images/thumb/anura1_tn.jpg" alt="anura1"></a>
         <a href="images/anura2.jpg" data-lightbox="image-1"><img src="images/thumb/anura2_tn.jpg" alt="anura2"></a>
@@ -54,10 +62,8 @@
         <a href="images/hollywood2.jpg" data-lightbox="image-1"><img src="images/thumb/hollywood2_tn.jpg" alt="hollywood2"></a>
         <a href="images/ken-travis.jpg" data-lightbox="image-1"><img src="images/thumb/ken-travis_tn.jpg" alt="gymk"></a>
         <a href="images/x6.jpg" data-lightbox="image-1"><img src="images/thumb/x6_tn.jpg" alt="x6"></a>
-
       </div>
-    
-    </div>
+
  
  </div> 
   <script src="js/lightbox-plus-jquery.min.js"></script>
