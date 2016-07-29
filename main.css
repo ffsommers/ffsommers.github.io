@@ -1,18 +1,29 @@
 body{
+	background: url(wood.jpg); 
 	background-color:#808080;
 	margin:0;
-	font: 1em "Open Sans", sans-serif;
+	font-family: Futura;
+	max-width: 1000px;
+}
+.banner {
+ max-width:100%;
+ 
 }
 img {
-	max-width: 100%
+	max-width: 100%;
 	height: auto;
 }
 .content{
 	padding:30px;
 }
-.nav-main{
+nav{
+	opacity: .7;
 	width:100%;
-	background-color:orange;
+}
+.nav-main{
+	
+	width:100%;
+	background-color:#21221C;
 	height:70px;
 	color:white;
 }
@@ -90,7 +101,7 @@ img {
 	transition: max-height 0.4s ease-in;
 }
 .about{
-	padding-top:100px;
+	margin-top:100px;
 	clear:both;
 	margin-right: 45px;
 	margin-left: 45px;
@@ -141,6 +152,9 @@ img {
 	padding-right: 15px;
 	padding-left: 20px;
 	box-sizing:border-box;
+}
+#proj{
+	color:white;
 }
 
 .thumbnails img:hover {
