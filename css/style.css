@@ -40,3 +40,14 @@ footer {
 .bg-primary {
 	background-color: rgba(255,255,255,.2);
 }
+
+.bar {
+	width:100%;
+	height:60px;
+	/*background-image: url("../images/blueprint2.png");*/
+}
+
+.bar img {
+	float: right;
+    margin-right:20px;
+}
